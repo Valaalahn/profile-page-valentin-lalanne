@@ -1,0 +1,91 @@
+body{
+    background-color: #003C43;
+}
+
+.container{
+    width: 700px;
+    margin: 20px auto;
+}
+
+.classic-list{
+    list-style: none;
+    padding: 0;
+}
+
+h1{
+    font-family: "Roboto";
+    color: #135D66;
+    font-weight: 900;
+}
+
+h2{
+    font-family: "Roboto";
+    color: #135D66;
+    font-weight: 600;
+}
+
+a{
+    text-decoration: none;
+}
+
+a.snap{
+    color: #FFFC00;
+    font-size: 70px;
+}
+
+a.facebook{
+    color: #4267B2;
+    font-size: 70px;
+}
+
+a.viber{
+    color: #7E57C2;
+    font-size: 70px;
+}
+
+.white-card{
+    background-color: white;
+    border-radius: 5px;
+    margin: 30px 0;
+    padding: 40px 40px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+#intro{
+    margin-bottom: 20px;
+}
+
+#profile-picture{
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.btn-blue{
+    color: white;
+    background-color: #0095ff;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 20px;
+}
+
+.btn-blue:hover{
+    background-color: rgba(0, 149, 255, 0.7);
+}
+
+/* #social-media{
+    max-height: 100%;
+} */
+
+.list-in-line li{
+    list-style-type: none;
+    display:inline;
+    font-size: 50px;
+    padding: 20px;
+}
+
+.list-in-line li a :hover{
+    transform: scale(1.2);
+}
